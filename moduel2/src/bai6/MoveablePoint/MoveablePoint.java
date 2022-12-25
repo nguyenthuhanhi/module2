@@ -42,7 +42,24 @@ public class MoveablePoint extends Point{
         return arr;
     }
 
-//    public  MoveablePoint move(){
-//
-//    }
+    public void move(){
+        setX(getX()+xSpeed);
+        setY(getY()+ySpeed);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString()+" XSpeed:"+xSpeed+"\t YSpeed:"+ySpeed;
+    }
+
+    public static void main(String[] args) {
+        Point point= new Point(4.5f,3);
+        MoveablePoint movalbePoint= new MoveablePoint(3,4,8,9);
+        System.out.println("point: "+ point);
+        System.out.println("movalbePoint: "+movalbePoint);
+        movalbePoint.move();
+        System.out.println("Sau khi move:");
+        System.out.println("point sau move:"+ point);
+        System.out.println("MovalbePoint sau move: "+movalbePoint);
+    }
 }

@@ -1,4 +1,4 @@
-package bai6;
+package bai6.CricleCylinder;
 
 public class Cylinder extends Cricle{
     protected double chieuCao;

@@ -1,4 +1,4 @@
-package bai6;
+package bai6.CricleCylinder;
 
 public class Cricle {
     protected static final double PI  = 3.1415 ;

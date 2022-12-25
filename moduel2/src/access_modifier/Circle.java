@@ -20,11 +20,11 @@ public class Circle {
         return radius*radius*PI;
     }
 
-//    public static void main(String[] args) {
-//        Circle circle=new Circle();
-//        System.out.println("bk hình tròn: "+circle.getRadius());
-//        System.out.println("S hình tròn: "+circle.getArea());
-//    }
+    public static void main(String[] args) {
+        Circle circle=new Circle();
+        System.out.println("bk hình tròn: "+circle.getRadius());
+        System.out.println("S hình tròn: "+circle.getArea());
+    }
 
 }
 
